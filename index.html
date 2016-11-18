@@ -10,6 +10,31 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <canvas></canvas>
+    <canvas class="opaque"></canvas>
+    <div class="entry-screen visible center" id="entry-screen">
+      <h2>Cell Survival</h2>
+      <p>
+        Press space to begin
+      </p>
+      <button class="directions visible" id="directions-button">
+        Directions
+        <div class="directions hidden center" id="directions-dropdown">
+          <p>
+            Use the arrow keys or  a, s, d, f keys to move
+          </p>
+          <p>
+            Absorb cells that are smaller than you by running into them!
+          </p>
+          <p>
+            Avoid cells that are larger than you!
+          </p>
+        </div>
+      </button>
+    </div>
+    <div class="game-over hidden center" id="game-over-container">
+      <h3 class="game-over title">Message</h3>
+      <p class="game-over desc line1">blah blah blah</p>
+      <p class="game-over desc line2">Press space to play again</p>
+    </div>
   </body>
 </html>

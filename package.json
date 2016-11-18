@@ -1,0 +1,24 @@
+{
+  "name": "JavaScriptProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "keymaster": "^1.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nequalszero/CellSurvival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nequalszero/CellSurvival/issues"
+  },
+  "homepage": "https://github.com/nequalszero/CellSurvival#readme"
+}

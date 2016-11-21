@@ -2,7 +2,7 @@
 
 [CellSurvival live][github]
 
-[github]: https://gearfix.herokuapp.com/#/
+[github]: https://nequalszero.github.io/CellSurvival/
 
 CellSurvival a game loosely based on Agar.io, where the user controls a cell and
 attempts to grow and absorb all the other cells.
